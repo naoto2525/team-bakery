@@ -140,4 +140,51 @@ body {
   font-size: 18px;
 }
 
+/*access.html専用css*/
+/*アクセスメインコンテンツ*/
+.access-container {
+  max-width: 900px;
+  margin: 48px auto;
+  padding: 0 24px;
+}
 
+/*地図画像*/
+.map-wrapper {
+  width: 100%;
+  height: 320px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+map-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.access-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e8dec9;
+}
+
+.access-table th,
+.access-table td {
+  padding: 16px 24px;
+  text-align: left;
+  font-size: 16px;
+  border-bottom: 1px solid #e8dec9;
+}
+
+.access-table th {
+  width: 25%;
+  background-color: #faf4eb;
+  color: #4a3320;
+  font-weight: bold;
+}
+
+.access-table td {
+  width: 75%;
+  color: #5c4533;
+}
