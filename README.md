@@ -24,7 +24,7 @@ Git・GitHub基礎 第10回 実践演習で、チームで作る架空のパン�
 | 名前 | 担当ページ |
 |---|---|
 | 大平直人 | トップ(index.html) |
-| メンバーAの名前 | 今日のパン(today.html) |
+| 鈴木 未來 | 今日のパン(today.html) |
 | 菊池 昇矢 | 人気ランキング(ranking.html) |
 | 吉田 鞠 | お店の歩み(history.html) |
 | 佐藤 瑠香 | アクセス(access.html) |
