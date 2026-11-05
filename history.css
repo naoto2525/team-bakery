@@ -135,13 +135,18 @@ body {
 
 /* ========== コンテンツ ========== */
 .history-list {
-   margin: 0 auto;
-   padding: 60px 20px 80px;
-   border-left: 3px solid #6b4e33;
-   padding-left: 30px;
-   margin-left: 10%;
+  border-left: 3px solid #8b5a2b;
+  padding-left: 25px;
+  margin: 40px 20px 60px 15%;
 }
 .history-list dt {
-   color: #8b5a2b;
-   font-weight: bold;
+  color: #8b5a2b;
+  font-weight: bold;
+  font-size: 17px;
+}
+.history-list dd {
+  margin-inline-start: 0;
+}
+.history-item {
+  margin-bottom: 20px;
 }
