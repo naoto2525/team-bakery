@@ -188,3 +188,25 @@ map-img {
   width: 75%;
   color: #5c4533;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*index.htmlのcss*/
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
