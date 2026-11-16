@@ -3,7 +3,7 @@
    ① ヘッダー と ② 大きな画像(全ページ共通)
    共通の部分を変えるときは、先にチームへ声をかける
    ===================================================== */
-
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
 
 /* ========== 全体 ========== */
 * {
@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  font-family: "Zen Maru Gothic", "Hiragino Sans", "Noto Sans JP", sans-serif;
   font-size: 16px;
   line-height: 1.8;
   color: #4a3320;
@@ -40,6 +40,7 @@ body {
   background-color: #ffffff;
   border-top: 4px solid #8b5a2b;
   box-shadow: 0 2px 8px rgba(74, 51, 32, 0.1);
+  font-family: "Zen Kurenaido", "Hiragino Sans", "Noto Sans JP", sans-serif;
 }
 
 .logo {
@@ -142,14 +143,16 @@ body {
 
 .hero-title h1 {
   margin: 0;
-  font-size: 44px;
+  font-family: "Zen Kurenaido", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  font-size: 48px;
   font-weight: normal;
   letter-spacing: 0.06em;
 }
 
 .hero-title p {
   margin: 4px 0 0;
-  font-size: 18px;
+  font-family: "Zen Kurenaido", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  font-size: 20px;
 }
 
 /*access.html専用css*/
@@ -211,6 +214,7 @@ body {
   padding: 48px 24px 24px;
   background-color: #f0e2c8;
   color: #4a3320;
+  font-family: "Zen Kurenaido", "Hiragino Sans", "Noto Sans JP", sans-serif;
 }
 
 .footer-inner {
@@ -223,8 +227,8 @@ body {
 
 .footer-logo {
   margin: 0;
-  font-size: 26px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: normal;
   letter-spacing: 0.06em;
   color: #8b5a2b;
 }
@@ -297,6 +301,7 @@ main {
   max-width: 960px;
   margin: 0 auto;
   padding: 56px 24px;
+  font-family: "Zen Kurenaido", "Hiragino Sans", "Noto Sans JP", sans-serif;
 }
 
 main h2 {
@@ -307,7 +312,7 @@ main h2 {
   color: #6b3f14;
   font-size: 28px;
   letter-spacing: 0.08em;
-
+  
 }
 
 main h2::after {
