@@ -1,8 +1,13 @@
 /* ========== コンテンツ ========== */
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
 .history-list {
+  flex: 1;
   border-left: 3px solid #8b5a2b;
   padding-left: 25px;
-  margin: 40px 20px 70px 15%;
+  margin: 40px 20px 30px 15%;
   font-family: "Zen Kurenaido", "Hiragino Sans", "Noto Sans JP", sans-serif;
 }
 .history-list dt {
@@ -15,4 +20,31 @@
 }
 .history-item {
   margin-bottom: 20px;
+}
+
+/* ========== 画像 ========== */
+.history-img {
+  flex: 1;
+  margin-top: 70px;
+  margin-right: 10%;
+  max-width: 400px;
+  max-height: 300px;
+}
+.history-img img {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .contents {   
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+  }
+  .history-img {    
+    margin: 50px 10% 0;
+  }
 }
